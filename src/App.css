@@ -1,0 +1,133 @@
+/* Core Styles */
+
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  background: #333;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.5;
+  margin:0;
+  padding: 10px;
+}
+
+h1,h2,h3{
+  margin: 0;
+  padding: 1em 0;
+}
+
+.color-box-container{
+  display: block;
+  width: 100%;
+  height: 70vh;
+  padding: 15px;
+}
+
+.button-box-container{
+  /* margin: 2em; */
+  height: 100%;;
+}
+
+.button-box{
+  height: 100%;
+}
+
+.rowStyles{
+  height: 100%;
+}
+
+.app-header{
+  text-align: left;
+  padding: 10px;
+}
+
+
+.button-col-style{
+  padding: 15px !important;
+}
+
+.color-box{
+  height: 100%;
+  background: #ffffff;
+  border: 0.6px solid #aeaeae;
+  /* margin : 2em; */
+  padding: 15px;
+  width: 100%;
+}
+
+
+
+.start-button{
+  margin: 5px;
+}
+
+.start-score{
+  margin: 2em;
+}
+
+
+.score{
+  float: right;
+  margin: 5px;
+}
+
+.level{
+  float: right;
+  margin: 5px;
+}
+
+
+
+.button-styling{
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  display: inline;
+}
+
+
+@media(max-width: 990px){
+  .ctr{
+    width: 100%;
+  }
+
+  .color-box-container{
+    display: block;
+    width: 100%;
+    height: 40vh;
+    padding: 0;
+  }
+
+  .button-styling{
+    width: 100%;
+    height: 100px;
+    padding: 2em;
+    display: inline;
+  }
+}
+
+@media(max-width: 500px){
+  .ctr{
+    width: 100%;
+  }
+
+  .color-box-container{
+    display: block;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .button-styling{
+    width: 100%;
+    height: 100px;
+    padding: 2em;
+    display: inline;
+  }
+}
+
+
+
+
+
+
+
